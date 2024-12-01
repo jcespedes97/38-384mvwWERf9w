@@ -7,8 +7,8 @@ export const environment = {
   },
   smartLauncherUrls: {
     provider:
-      'https://launch.smarthealthit.org/?launch_url=http%3A%2F%2Fhttps://jcespedes97.github.io/38-384mvwWERf9w/%2Flaunch%3FlaunchType%3Dprovider&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
+      'https://launch.smarthealthit.org/?launch_url=https%3A%2F%2Fjcespedes97.github.io/38-384mvwWERf9w/%2Flaunch%3FlaunchType%3Dprovider&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
     patient:
-      'https://launch.smarthealthit.org/?launch_url=http%3A%2F%2Fhttps://jcespedes97.github.io/38-384mvwWERf9w/%2Flaunch%3FlaunchType%3Dpatient&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
+      'https://launch.smarthealthit.org/?launch_url=https%3A%2F%2Fjcespedes97.github.io/38-384mvwWERf9w/%2Flaunch%3FlaunchType%3Dpatient&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
   },
 };
