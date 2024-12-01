@@ -1,14 +1,14 @@
 export const environment = {
-  ApiHost: 'http://ec2-100-27-208-246.compute-1.amazonaws.com',
+  ApiHost: 'http://ec2-3-142-142-75.us-east-2.compute.amazonaws.com',
   smartAuth: {
-    clientId: 'someId',
-    fhirScope: 'launch profile openid online_access patient/Patient.read',
-    redirectUri: 'http://ec2-18-208-222-109.compute-1.amazonaws.com',
+    clientId: 'fake_client_id',
+    fhirScope: 'launch profile openid online_access patient/Patient.read patient/Observation.read patient/MedicationRequest.*',
+    redirectUri: 'https://jcespedes97.github.io/38-384mvwWERf9w/',
   },
   smartLauncherUrls: {
     provider:
-      'https://launch.smarthealthit.org/?launch_url=http%3A%2F%2Fec2-18-208-222-109.compute-1.amazonaws.com%2Flaunch%3FlaunchType%3Dprovider&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
+      'https://launch.smarthealthit.org/?launch_url=http%3A%2F%2Fhttps://jcespedes97.github.io/38-384mvwWERf9w/%2Flaunch%3FlaunchType%3Dprovider&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
     patient:
-      'https://launch.smarthealthit.org/?launch_url=http%3A%2F%2Fec2-18-208-222-109.compute-1.amazonaws.com%2Flaunch%3FlaunchType%3Dpatient&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
+      'https://launch.smarthealthit.org/?launch_url=http%3A%2F%2Fhttps://jcespedes97.github.io/38-384mvwWERf9w/%2Flaunch%3FlaunchType%3Dpatient&launch=WzEsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0',
   },
 };
