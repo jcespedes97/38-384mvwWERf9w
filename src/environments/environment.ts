@@ -1,5 +1,5 @@
 export const environment = {
-  ApiHost: 'http://ec2-3-142-142-75.us-east-2.compute.amazonaws.com',
+  ApiHost: 'ec2-3-132-102-209.us-east-2.compute.amazonaws.com',
   smartAuth: {
     clientId: 'fake_client_id',
     fhirScope: 'launch profile openid online_access patient/Patient.read patient/Observation.read patient/MedicationRequest.*',
